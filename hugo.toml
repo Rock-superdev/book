@@ -1,0 +1,22 @@
+baseURL = "https://Rock-superdev.github.io/book/"
+languageCode = "zh-cn"
+title = "My Book Blog"
+theme = "ananke"
+
+# 文章默认结构
+[params]
+  mainSections = ["posts"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+# permalink: /posts/:slug/
+[permalinks]
+  posts = "/:slug/"
