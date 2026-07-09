@@ -24,4 +24,4 @@ title = "My Book Blog"
 # Hugo module: load Ananke theme via Go modules
 [module]
   [[module.imports]]
-    path = "github.com/theNewDynamic/gohugo-theme-ananke"
+    path = "github.com/gohugo-ananke/ananke/v2"
